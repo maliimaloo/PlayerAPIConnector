@@ -81,7 +81,6 @@
                             <createDependencyReducedPom>false</createDependencyReducedPom>
                             <artifactSet>
                                 <includes>
-                                    <include>com.github.kangarko:Foundation*</include>
                                     <include>io.github.cdimascio:dotenv-java</include>
                                 </includes>
                             </artifactSet>
