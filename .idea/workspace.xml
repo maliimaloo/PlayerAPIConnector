@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33723b87-a57f-4d09-a4a5-5428218133fd" name="Changes" comment="[Correction] GitHub Action">
+    <list default="true" id="33723b87-a57f-4d09-a4a5-5428218133fd" name="Changes" comment="[Correction] pom.xml">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -107,12 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1725845695777</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[Correction] pom.xml">
+      <option name="closed" value="true" />
+      <created>1725845973133</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725845973133</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="[Correction] GitHub Action" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Correction] GitHub Action" />
+    <MESSAGE value="[Correction] pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Correction] pom.xml" />
   </component>
 </project>
