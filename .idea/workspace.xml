@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33723b87-a57f-4d09-a4a5-5428218133fd" name="Changes" comment="[Correction] pom.xml, ci.yml">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/command/PlayerAPICommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/config/ConfigLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/ApiService.java" afterDir="false" />
+    <list default="true" id="33723b87-a57f-4d09-a4a5-5428218133fd" name="Changes" comment="[PATCH]&#10;- Ajout de la classe `PlayerAPICommand` dans le nouveau package `com.example.command`.&#10;- Introduction de la classe `ConfigLoader` dans le package `com.example.config` pour la gestion des variables d'environnement.&#10;- Ajout de la classe `ApiService` dans le package `com.example.service` pour encapsuler la logique de récupération des informations des joueurs via l'API.&#10;- Mise à jour de la classe `Main` pour initialiser le service `ApiService`.&#10;- Réorganisation du code afin de séparer les responsabilités et améliorer la maintenabilité.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/PlayerAPICommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/ApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/ApiService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725846093360</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[PATCH]&#10;- Ajout de la classe `PlayerAPICommand` dans le nouveau package `com.example.command`.&#10;- Introduction de la classe `ConfigLoader` dans le package `com.example.config` pour la gestion des variables d'environnement.&#10;- Ajout de la classe `ApiService` dans le package `com.example.service` pour encapsuler la logique de récupération des informations des joueurs via l'API.&#10;- Mise à jour de la classe `Main` pour initialiser le service `ApiService`.&#10;- Réorganisation du code afin de séparer les responsabilités et améliorer la maintenabilité.">
+      <option name="closed" value="true" />
+      <created>1725848805700</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725848805700</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -135,6 +139,7 @@
     <MESSAGE value="[Correction] GitHub Action" />
     <MESSAGE value="[Correction] pom.xml" />
     <MESSAGE value="[Correction] pom.xml, ci.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Correction] pom.xml, ci.yml" />
+    <MESSAGE value="[PATCH]&#10;- Ajout de la classe `PlayerAPICommand` dans le nouveau package `com.example.command`.&#10;- Introduction de la classe `ConfigLoader` dans le package `com.example.config` pour la gestion des variables d'environnement.&#10;- Ajout de la classe `ApiService` dans le package `com.example.service` pour encapsuler la logique de récupération des informations des joueurs via l'API.&#10;- Mise à jour de la classe `Main` pour initialiser le service `ApiService`.&#10;- Réorganisation du code afin de séparer les responsabilités et améliorer la maintenabilité." />
+    <option name="LAST_COMMIT_MESSAGE" value="[PATCH]&#10;- Ajout de la classe `PlayerAPICommand` dans le nouveau package `com.example.command`.&#10;- Introduction de la classe `ConfigLoader` dans le package `com.example.config` pour la gestion des variables d'environnement.&#10;- Ajout de la classe `ApiService` dans le package `com.example.service` pour encapsuler la logique de récupération des informations des joueurs via l'API.&#10;- Mise à jour de la classe `Main` pour initialiser le service `ApiService`.&#10;- Réorganisation du code afin de séparer les responsabilités et améliorer la maintenabilité." />
   </component>
 </project>
