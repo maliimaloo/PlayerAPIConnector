@@ -23,7 +23,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Build with Maven
-        run: mvn clean install
+        run: mvn clean install -q
 
       - name: Run tests
         run: mvn test
